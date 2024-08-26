@@ -1,0 +1,320 @@
+:root {
+  --primary: #4fd834;
+  --secundary: #e7501e;
+  --text-color: #fff;
+  --text-secundary: #5084d3;
+  --text-terciary: #030303;
+}
+
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Descricao evento*/
+#descricao-do-evento {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(./img/lua-e-mar.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--text-color);
+}
+
+#conteudo h2,
+#conteudo .data-do-evento {
+  color: var(--primary);
+}
+
+#conteudo h2 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+#conteudo .sobre-evento {
+  font-size: 2em;
+  text-transform: uppercase;
+  max-width: 350px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+#conteudo p {
+  font-size: 1.2em;
+  margin-bottom: 0.3em;
+}
+
+#conteudo .data-do-evento {
+  font-weight: bold;
+}
+
+#descricao-do-form {
+  background-color: var(--secundary);
+  padding: 2em;
+  max-width: 22%;
+}
+
+.descricao-do-form p {
+  font-size: 1.5em;
+  color: var(--text-secundary);
+  margin-bottom: 1em;
+}
+p {
+  font-size: 1.5em;
+}
+.grupo-do-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8em;
+}
+
+.grupo-do-form label {
+  color: var(--text-terciary);
+  margin-bottom: 0.3em;
+  font-weight: bold;
+}
+
+.grupo-do-form input,
+.grupo-do-form select {
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  background-color: var(--primary);
+  color: var(--text-color);
+  text-transform: uppercase;
+  width: 100%;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  margin-top: 1rem;
+  opacity: 0.8;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+body {
+  padding-bottom: 80px;
+}
+
+/*Beneficios*/
+
+#beneficios h2 {
+  color: var(--text-color);
+  text-align: center;
+  padding: 2em;
+  max-width: 100%;
+  background-color: var(--secundary);
+}
+.cont-for-learn {
+  display: flex;
+  justify-content: space-between;
+  height: 420px;
+  background-size: cover;
+  padding: 1em;
+  margin: 0 auto;
+  margin-left: 7em;
+  padding-top: 4em;
+}
+
+.conteudo {
+  align-items: center;
+}
+
+.conteudo img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  align-items: center;
+  margin-left: 3em;
+  border: var(--secundary) solid;
+}
+
+.conteudo p {
+  font-size: 1em;
+  padding-left: 1rem;
+  text-align: center;
+}
+
+/* Location */
+
+#loc {
+  background-color: var(--secundary);
+  color: var(--text-color);
+  height: 4em;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  padding: 1.5em;
+  font-size: 30px;
+}
+
+#location {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 400px;
+  margin: 0.3em;
+  margin-left: 0 auto;
+  background: linear-gradient(rgba(17, 4, 4, 0.8), rgba(0, 0, 0, 0.9)),
+    url(./img/pamela-heckel-yQ9-lq5vnlY-unsplash-1200x1200.jpg);
+  background-position: center;
+  background-size: cover;
+  color: var(--secundary);
+  align-items: center;
+}
+
+span {
+  font-size: 1.7em;
+  margin-left: 1em;
+  color: var(--secundary);
+}
+#location-exact {
+  margin: 6em;
+}
+
+.location-side {
+  font-weight: 600;
+  line-height: 170%;
+  color: var(--text-color);
+}
+
+#location-detail {
+  margin: 6em;
+}
+
+/*Detalhes*/
+
+#temas {
+  height: 930px;
+}
+
+#temas h4 {
+  background-color: var(--secundary);
+  color: var(--text-color);
+  font-size: 1.8em;
+  text-align: center;
+  align-items: center;
+  height: 3em;
+  padding: 1em;
+}
+
+h5 {
+  color: var(--text-terciary);
+  font-size: 2em;
+  text-transform: uppercase;
+  gap: 1em;
+  margin: 1em;
+  justify-content: center;
+  color: var(--secundary);
+}
+
+#about-temas {
+  display: flex;
+  padding: 0;
+  margin: 1em;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#detalhes-tema {
+  margin-left: 2em;
+}
+
+#image-tema {
+  height: 250px;
+  width: 420px;
+}
+
+#about-temas1 {
+  display: flex;
+  padding: 2em;
+  margin: 1em;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#detalhes-tema1 {
+  margin-right: 4em;
+}
+
+ul li {
+  text-decoration: double;
+  font-weight: 500;
+  font-size: 2em;
+  list-style-position: inside;
+  margin-bottom: 0.2em;
+}
+
+ul li:last-child {
+  font-weight: bold;
+}
+
+/* chamada*/
+
+#call {
+  background: linear-gradient(rgba(17, 4, 4, 0.7), rgba(0, 0, 0, 0.6)),
+    url(./img/pamela-heckel-yQ9-lq5vnlY-unsplash-1200x1200.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 20em;
+  align-items: center;
+  padding: 5px;
+  justify-content: center;
+  border-top: var(--secundary) 2px solid;
+  border-bottom: var(--secundary) 2px solid;
+}
+
+#chamada h3 {
+  color: var(--text-color);
+  font-size: 3.7em;
+  align-items: center;
+  text-align: center;
+  line-height: 2em;
+}
+
+#btn1 {
+  align-items: center;
+  text-align: center;
+  padding: 1.2em;
+  color: var(--text-color);
+  background-color: var(--primary);
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 40%;
+  margin-left: 19em;
+  opacity: 0.8;
+}
+
+#btn1:hover {
+  opacity: 1;
+}
+
+/*Mobile*/
+
+@media (max-width: 450px) {
+  /*event-form*/
+  #descricao-do-evento {
+    flex-direction: column;
+    height: auto;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  #beneficios h2 {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeoLab</title>
+
+    <!--Links-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="descricao-do-evento">
+      <div id="conteudo">
+        <h2>GeoLab</h2>
+        <p class="sobre-evento">
+          Um evento para aprender mais sobre geografia mundial
+        </p>
+        <p>Data do evento:</p>
+        <p class="data-do-evento">
+          Domingo, 29 de Novembro de 2023, apartir das 15h
+        </p>
+      </div>
+      <div id="descricao-do-form">
+        <p id="P">Preencha o fromulário para receber detalhes do evento</p>
+
+        <form>
+          <div class="grupo-do-form">
+            <label for="name">Nome</label>
+            <input type="text" name="name" placeholder="Digita seu nome" />
+          </div>
+          <div class="grupo-do-form">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Digita seu email" />
+          </div>
+          <div class="grupo-do-form">
+            <label for="phone"> Celular</label>
+            <input
+              type="text"
+              name="phone"
+              placeholder="Digita seu número de whatsapp"
+            />
+          </div>
+          <div class="grupo-do-form">
+            <label for="interesse"> Principal Interesse </label>
+            <select name="interesse" id="">
+              <option value="" disabled selected>Selecione</option>
+              <option value="Erosão">Erosão</option>
+              <option value="Lua">Lua</option>
+              <option value="Praia">Praias</option>
+              <option value="Vegetacão">Vegetação</option>
+              <option value="Outros">Outros</option>
+            </select>
+
+            <div>
+              <input type="submit" class="btn" value="Quero me inscrever" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </header>
+
+    <section id="beneficios">
+      <h2>O que voce vai aprender?</h2>
+
+      <div class="cont-for-learn">
+        <div class="conteudo">
+          <img class="img" src="./img/lua-e-mar.jpg" alt="Relevo" />
+          <p>
+            Voçê vai aprender a conhecer e identificar as diferentes formas de
+            apresentação da superficie terrestre
+          </p>
+        </div>
+
+        <div class="conteudo">
+          <img
+            class="img"
+            src="./img/pamela-heckel-yQ9-lq5vnlY-unsplash-1200x1200.jpg"
+            alt="Mar"
+          />
+          <p>
+            Voçê vai aprender a conhecer e identificar as diferentes formas de
+            influência da lua sobre os mares e as ondas.
+          </p>
+        </div>
+
+        <div class="conteudo">
+          <img
+            class="img"
+            src="./img/PRA20060509D024-1024x768.jpg"
+            alt="movimentações maritimas"
+          />
+          <p>
+            Voçê vai aprender a conhecer as movimentações das águas maritimas.
+            Os seus tipos e suas caracteristicas e sua influência na costa.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <h3 id="loc">Localização</h3>
+
+    <section id="location">
+      <div id="location-exact">
+        <p class="location-side">
+          Maputo, Campus de Lhanguene<br />
+          Avenida do Trabalho, n5463
+        </p>
+      </div>
+
+      <div id="location-detail">
+        <p class="location-side">
+          <span>
+            Local de Destaque <br />
+            <br />
+          </span>
+          O evento será realizado no Campus da Universidade Pedagógica, <br />
+          Anfiteatro Luís Nanjolo, Rés do chão.
+        </p>
+      </div>
+    </section>
+
+    <section id="temas">
+      <h4>Temas em discussão:</h4>
+
+      <div id="about-temas">
+        <div class="tema1">
+          <h5>Ambientes costeiros</h5>
+          <img
+            id="image-tema"
+            src="./img/PRA20060509D024-1024x768.jpg"
+            alt="Ambientes costeiros"
+          />
+        </div>
+        <div id="detalhes-tema">
+          <ul>
+            <li>Erosão costeira</li>
+            <li>Progressão marítima</li>
+            <li>Nível do mar</li>
+            <li>intrusão maritima</li>
+            <li>Vida marinha vs Homem</li>
+            <li>E muito mais...</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="about-temas1">
+        <div id="detalhes-tema1">
+          <ul>
+            <li>Importância dos rios</li>
+            <li>Rios e sua dinamica</li>
+            <li>Nivel do mar e caudal do rio</li>
+            <li>Estuários e Deltas</li>
+            <li>Vida fluvial vs Homem</li>
+            <li>E muito mais...</li>
+          </ul>
+        </div>
+
+        <div class="tema1">
+          <h5>Rios e Sua influência</h5>
+          <img
+            id="image-tema"
+            src="./img/ed294c99ccc3fa317608825433567e88.jpg"
+            alt="Barragens e rios"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="call">
+      <div id="chamada">
+        <h3 id="chamada1">
+          Gostou? <br />
+          Se inscreva agora!
+        </h3>
+      </div>
+
+      <button id="btn1">Me Increver</button>
+    </section>
+  </body>
+</html>
